@@ -68,7 +68,8 @@ public abstract class Animal
     
     //gets the max litter size of the animals (12.48)
     abstract protected int getMaxLitterSize();
-    
+
+    //Allows to use random
     protected static final Random rand = Randomizer.getRandom(); //(12.48)
     
     /**
